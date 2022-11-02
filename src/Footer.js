@@ -2,7 +2,7 @@ import React from 'react'
 import Zuri from './image/logo.png'
 import I4g from './image/I4G.png'
 
-export default function () {
+ function Footer() {
   return (
     <div>
         <hr className=' w-[85%] ml-24  h-3 mt-8 bg-gray-50'/>
@@ -14,3 +14,4 @@ export default function () {
     </div>
   )
 }
+export default Footer;
